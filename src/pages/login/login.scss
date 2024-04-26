@@ -1,0 +1,85 @@
+.login{
+    height: 100vh;
+    background-color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .card{
+        display: flex;
+        width: 50%;
+        min-height: 600px;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: rgba(189, 184, 184,0.5);
+        .left{
+            flex: 1;
+            background: linear-gradient(black,rgba(48, 221, 221,0.5)), url("https://images.pexels.com/photos/3584973/pexels-photo-3584973.jpeg") center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: #fcf6f69d;
+
+            h1{
+                font-size: 85px;
+            }
+            p{
+                font-size: 14px;
+                letter-spacing: 6px;
+            }
+            span{
+                font-size: 17px;
+            }
+
+            button{
+                width: 50%;
+                padding: 10px;
+                border: none;
+                color: #30475E;
+                cursor: pointer;
+                font-weight: bold;
+            }
+
+            button:hover{
+                background-color: #332751;
+                color: white;
+            }
+        }
+
+        .right{
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 50px;
+            h1{
+                color: #555;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                input{
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                    font-size: 16px;
+
+                }
+                button{
+                    padding: 20px;
+                    background-color: #332751;
+                    color: white;
+                    cursor: pointer;
+                    font-size: 17px;
+                    font-weight: bold;
+                }
+
+            }
+        }
+    }
+}
